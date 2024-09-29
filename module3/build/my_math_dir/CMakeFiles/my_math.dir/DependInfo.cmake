@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/rpi/shadab/CMake_Mastering/module3/my_math_dir/addition.cpp" "my_math_dir/CMakeFiles/my_math.dir/addition.cpp.o" "gcc" "my_math_dir/CMakeFiles/my_math.dir/addition.cpp.o.d"
-  "/home/rpi/shadab/CMake_Mastering/module3/my_math_dir/division.cpp" "my_math_dir/CMakeFiles/my_math.dir/division.cpp.o" "gcc" "my_math_dir/CMakeFiles/my_math.dir/division.cpp.o.d"
+  "/home/rpi/shadab/CMake_Mastering/module3/my_math_dir/src/addition.cpp" "my_math_dir/CMakeFiles/my_math.dir/src/addition.cpp.o" "gcc" "my_math_dir/CMakeFiles/my_math.dir/src/addition.cpp.o.d"
+  "/home/rpi/shadab/CMake_Mastering/module3/my_math_dir/src/division.cpp" "my_math_dir/CMakeFiles/my_math.dir/src/division.cpp.o" "gcc" "my_math_dir/CMakeFiles/my_math.dir/src/division.cpp.o.d"
   )
 
 # Targets to which this target links.

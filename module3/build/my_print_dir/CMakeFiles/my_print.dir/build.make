@@ -69,28 +69,28 @@ include my_print_dir/CMakeFiles/my_print.dir/progress.make
 # Include the compile flags for this target's objects.
 include my_print_dir/CMakeFiles/my_print.dir/flags.make
 
-my_print_dir/CMakeFiles/my_print.dir/print_result.cpp.o: my_print_dir/CMakeFiles/my_print.dir/flags.make
-my_print_dir/CMakeFiles/my_print.dir/print_result.cpp.o: /home/rpi/shadab/CMake_Mastering/module3/my_print_dir/print_result.cpp
-my_print_dir/CMakeFiles/my_print.dir/print_result.cpp.o: my_print_dir/CMakeFiles/my_print.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rpi/shadab/CMake_Mastering/module3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object my_print_dir/CMakeFiles/my_print.dir/print_result.cpp.o"
-	cd /home/rpi/shadab/CMake_Mastering/module3/build/my_print_dir && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT my_print_dir/CMakeFiles/my_print.dir/print_result.cpp.o -MF CMakeFiles/my_print.dir/print_result.cpp.o.d -o CMakeFiles/my_print.dir/print_result.cpp.o -c /home/rpi/shadab/CMake_Mastering/module3/my_print_dir/print_result.cpp
+my_print_dir/CMakeFiles/my_print.dir/src/print_result.cpp.o: my_print_dir/CMakeFiles/my_print.dir/flags.make
+my_print_dir/CMakeFiles/my_print.dir/src/print_result.cpp.o: /home/rpi/shadab/CMake_Mastering/module3/my_print_dir/src/print_result.cpp
+my_print_dir/CMakeFiles/my_print.dir/src/print_result.cpp.o: my_print_dir/CMakeFiles/my_print.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rpi/shadab/CMake_Mastering/module3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object my_print_dir/CMakeFiles/my_print.dir/src/print_result.cpp.o"
+	cd /home/rpi/shadab/CMake_Mastering/module3/build/my_print_dir && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT my_print_dir/CMakeFiles/my_print.dir/src/print_result.cpp.o -MF CMakeFiles/my_print.dir/src/print_result.cpp.o.d -o CMakeFiles/my_print.dir/src/print_result.cpp.o -c /home/rpi/shadab/CMake_Mastering/module3/my_print_dir/src/print_result.cpp
 
-my_print_dir/CMakeFiles/my_print.dir/print_result.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_print.dir/print_result.cpp.i"
-	cd /home/rpi/shadab/CMake_Mastering/module3/build/my_print_dir && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rpi/shadab/CMake_Mastering/module3/my_print_dir/print_result.cpp > CMakeFiles/my_print.dir/print_result.cpp.i
+my_print_dir/CMakeFiles/my_print.dir/src/print_result.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_print.dir/src/print_result.cpp.i"
+	cd /home/rpi/shadab/CMake_Mastering/module3/build/my_print_dir && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rpi/shadab/CMake_Mastering/module3/my_print_dir/src/print_result.cpp > CMakeFiles/my_print.dir/src/print_result.cpp.i
 
-my_print_dir/CMakeFiles/my_print.dir/print_result.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_print.dir/print_result.cpp.s"
-	cd /home/rpi/shadab/CMake_Mastering/module3/build/my_print_dir && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rpi/shadab/CMake_Mastering/module3/my_print_dir/print_result.cpp -o CMakeFiles/my_print.dir/print_result.cpp.s
+my_print_dir/CMakeFiles/my_print.dir/src/print_result.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_print.dir/src/print_result.cpp.s"
+	cd /home/rpi/shadab/CMake_Mastering/module3/build/my_print_dir && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rpi/shadab/CMake_Mastering/module3/my_print_dir/src/print_result.cpp -o CMakeFiles/my_print.dir/src/print_result.cpp.s
 
 # Object files for target my_print
 my_print_OBJECTS = \
-"CMakeFiles/my_print.dir/print_result.cpp.o"
+"CMakeFiles/my_print.dir/src/print_result.cpp.o"
 
 # External object files for target my_print
 my_print_EXTERNAL_OBJECTS =
 
-my_print_dir/libmy_print.a: my_print_dir/CMakeFiles/my_print.dir/print_result.cpp.o
+my_print_dir/libmy_print.a: my_print_dir/CMakeFiles/my_print.dir/src/print_result.cpp.o
 my_print_dir/libmy_print.a: my_print_dir/CMakeFiles/my_print.dir/build.make
 my_print_dir/libmy_print.a: my_print_dir/CMakeFiles/my_print.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rpi/shadab/CMake_Mastering/module3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libmy_print.a"

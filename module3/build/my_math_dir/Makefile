@@ -130,53 +130,53 @@ my_math/fast:
 	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f my_math_dir/CMakeFiles/my_math.dir/build.make my_math_dir/CMakeFiles/my_math.dir/build
 .PHONY : my_math/fast
 
-addition.o: addition.cpp.o
-.PHONY : addition.o
+src/addition.o: src/addition.cpp.o
+.PHONY : src/addition.o
 
 # target to build an object file
-addition.cpp.o:
-	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f my_math_dir/CMakeFiles/my_math.dir/build.make my_math_dir/CMakeFiles/my_math.dir/addition.cpp.o
-.PHONY : addition.cpp.o
+src/addition.cpp.o:
+	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f my_math_dir/CMakeFiles/my_math.dir/build.make my_math_dir/CMakeFiles/my_math.dir/src/addition.cpp.o
+.PHONY : src/addition.cpp.o
 
-addition.i: addition.cpp.i
-.PHONY : addition.i
+src/addition.i: src/addition.cpp.i
+.PHONY : src/addition.i
 
 # target to preprocess a source file
-addition.cpp.i:
-	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f my_math_dir/CMakeFiles/my_math.dir/build.make my_math_dir/CMakeFiles/my_math.dir/addition.cpp.i
-.PHONY : addition.cpp.i
+src/addition.cpp.i:
+	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f my_math_dir/CMakeFiles/my_math.dir/build.make my_math_dir/CMakeFiles/my_math.dir/src/addition.cpp.i
+.PHONY : src/addition.cpp.i
 
-addition.s: addition.cpp.s
-.PHONY : addition.s
+src/addition.s: src/addition.cpp.s
+.PHONY : src/addition.s
 
 # target to generate assembly for a file
-addition.cpp.s:
-	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f my_math_dir/CMakeFiles/my_math.dir/build.make my_math_dir/CMakeFiles/my_math.dir/addition.cpp.s
-.PHONY : addition.cpp.s
+src/addition.cpp.s:
+	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f my_math_dir/CMakeFiles/my_math.dir/build.make my_math_dir/CMakeFiles/my_math.dir/src/addition.cpp.s
+.PHONY : src/addition.cpp.s
 
-division.o: division.cpp.o
-.PHONY : division.o
+src/division.o: src/division.cpp.o
+.PHONY : src/division.o
 
 # target to build an object file
-division.cpp.o:
-	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f my_math_dir/CMakeFiles/my_math.dir/build.make my_math_dir/CMakeFiles/my_math.dir/division.cpp.o
-.PHONY : division.cpp.o
+src/division.cpp.o:
+	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f my_math_dir/CMakeFiles/my_math.dir/build.make my_math_dir/CMakeFiles/my_math.dir/src/division.cpp.o
+.PHONY : src/division.cpp.o
 
-division.i: division.cpp.i
-.PHONY : division.i
+src/division.i: src/division.cpp.i
+.PHONY : src/division.i
 
 # target to preprocess a source file
-division.cpp.i:
-	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f my_math_dir/CMakeFiles/my_math.dir/build.make my_math_dir/CMakeFiles/my_math.dir/division.cpp.i
-.PHONY : division.cpp.i
+src/division.cpp.i:
+	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f my_math_dir/CMakeFiles/my_math.dir/build.make my_math_dir/CMakeFiles/my_math.dir/src/division.cpp.i
+.PHONY : src/division.cpp.i
 
-division.s: division.cpp.s
-.PHONY : division.s
+src/division.s: src/division.cpp.s
+.PHONY : src/division.s
 
 # target to generate assembly for a file
-division.cpp.s:
-	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f my_math_dir/CMakeFiles/my_math.dir/build.make my_math_dir/CMakeFiles/my_math.dir/division.cpp.s
-.PHONY : division.cpp.s
+src/division.cpp.s:
+	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f my_math_dir/CMakeFiles/my_math.dir/build.make my_math_dir/CMakeFiles/my_math.dir/src/division.cpp.s
+.PHONY : src/division.cpp.s
 
 # Help Target
 help:
@@ -187,12 +187,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... my_math"
-	@echo "... addition.o"
-	@echo "... addition.i"
-	@echo "... addition.s"
-	@echo "... division.o"
-	@echo "... division.i"
-	@echo "... division.s"
+	@echo "... src/addition.o"
+	@echo "... src/addition.i"
+	@echo "... src/addition.s"
+	@echo "... src/division.o"
+	@echo "... src/division.i"
+	@echo "... src/division.s"
 .PHONY : help
 
 
