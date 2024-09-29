@@ -83,65 +83,19 @@ CMakeFiles/calculator.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calculator.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rpi/shadab/CMake_Mastering/module2/main.cpp -o CMakeFiles/calculator.dir/main.cpp.s
 
-CMakeFiles/calculator.dir/addition.cpp.o: CMakeFiles/calculator.dir/flags.make
-CMakeFiles/calculator.dir/addition.cpp.o: /home/rpi/shadab/CMake_Mastering/module2/addition.cpp
-CMakeFiles/calculator.dir/addition.cpp.o: CMakeFiles/calculator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rpi/shadab/CMake_Mastering/module2/my_build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/calculator.dir/addition.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calculator.dir/addition.cpp.o -MF CMakeFiles/calculator.dir/addition.cpp.o.d -o CMakeFiles/calculator.dir/addition.cpp.o -c /home/rpi/shadab/CMake_Mastering/module2/addition.cpp
-
-CMakeFiles/calculator.dir/addition.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calculator.dir/addition.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rpi/shadab/CMake_Mastering/module2/addition.cpp > CMakeFiles/calculator.dir/addition.cpp.i
-
-CMakeFiles/calculator.dir/addition.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calculator.dir/addition.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rpi/shadab/CMake_Mastering/module2/addition.cpp -o CMakeFiles/calculator.dir/addition.cpp.s
-
-CMakeFiles/calculator.dir/division.cpp.o: CMakeFiles/calculator.dir/flags.make
-CMakeFiles/calculator.dir/division.cpp.o: /home/rpi/shadab/CMake_Mastering/module2/division.cpp
-CMakeFiles/calculator.dir/division.cpp.o: CMakeFiles/calculator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rpi/shadab/CMake_Mastering/module2/my_build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/calculator.dir/division.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calculator.dir/division.cpp.o -MF CMakeFiles/calculator.dir/division.cpp.o.d -o CMakeFiles/calculator.dir/division.cpp.o -c /home/rpi/shadab/CMake_Mastering/module2/division.cpp
-
-CMakeFiles/calculator.dir/division.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calculator.dir/division.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rpi/shadab/CMake_Mastering/module2/division.cpp > CMakeFiles/calculator.dir/division.cpp.i
-
-CMakeFiles/calculator.dir/division.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calculator.dir/division.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rpi/shadab/CMake_Mastering/module2/division.cpp -o CMakeFiles/calculator.dir/division.cpp.s
-
-CMakeFiles/calculator.dir/print_result.cpp.o: CMakeFiles/calculator.dir/flags.make
-CMakeFiles/calculator.dir/print_result.cpp.o: /home/rpi/shadab/CMake_Mastering/module2/print_result.cpp
-CMakeFiles/calculator.dir/print_result.cpp.o: CMakeFiles/calculator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rpi/shadab/CMake_Mastering/module2/my_build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/calculator.dir/print_result.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calculator.dir/print_result.cpp.o -MF CMakeFiles/calculator.dir/print_result.cpp.o.d -o CMakeFiles/calculator.dir/print_result.cpp.o -c /home/rpi/shadab/CMake_Mastering/module2/print_result.cpp
-
-CMakeFiles/calculator.dir/print_result.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calculator.dir/print_result.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rpi/shadab/CMake_Mastering/module2/print_result.cpp > CMakeFiles/calculator.dir/print_result.cpp.i
-
-CMakeFiles/calculator.dir/print_result.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calculator.dir/print_result.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rpi/shadab/CMake_Mastering/module2/print_result.cpp -o CMakeFiles/calculator.dir/print_result.cpp.s
-
 # Object files for target calculator
 calculator_OBJECTS = \
-"CMakeFiles/calculator.dir/main.cpp.o" \
-"CMakeFiles/calculator.dir/addition.cpp.o" \
-"CMakeFiles/calculator.dir/division.cpp.o" \
-"CMakeFiles/calculator.dir/print_result.cpp.o"
+"CMakeFiles/calculator.dir/main.cpp.o"
 
 # External object files for target calculator
 calculator_EXTERNAL_OBJECTS =
 
 calculator: CMakeFiles/calculator.dir/main.cpp.o
-calculator: CMakeFiles/calculator.dir/addition.cpp.o
-calculator: CMakeFiles/calculator.dir/division.cpp.o
-calculator: CMakeFiles/calculator.dir/print_result.cpp.o
 calculator: CMakeFiles/calculator.dir/build.make
+calculator: libmy_math.a
+calculator: libmy_print.a
 calculator: CMakeFiles/calculator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rpi/shadab/CMake_Mastering/module2/my_build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable calculator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rpi/shadab/CMake_Mastering/module2/my_build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable calculator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/calculator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
