@@ -7,4 +7,4 @@ add_subdirectory(my_print_dir)
 add_executable(calculator
 main.cpp)
 
-target_link_libraries(calculator my_math my_print)
+target_link_libraries(calculator PRIVATE my_math my_print)
