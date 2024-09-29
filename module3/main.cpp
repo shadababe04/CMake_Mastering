@@ -1,7 +1,7 @@
 #include<iostream>
-#include"addition.h"
-#include"division.h"
-#include"print_result.h"
+#include"my_math/addition.h"
+#include"my_math/division.h"
+#include"my_print/print_result.h"
 
 using namespace std;
 
