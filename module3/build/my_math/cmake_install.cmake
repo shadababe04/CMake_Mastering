@@ -1,4 +1,4 @@
-# Install script for directory: /home/rpi/shadab/CMake_Mastering/module3/my_print_dir
+# Install script for directory: /home/rpi/shadab/CMake_Mastering/module3/my_math
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

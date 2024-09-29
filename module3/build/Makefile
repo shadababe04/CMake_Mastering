@@ -139,7 +139,7 @@ my_math: cmake_check_build_system
 
 # fast build rule for target.
 my_math/fast:
-	$(MAKE) $(MAKESILENT) -f my_math_dir/CMakeFiles/my_math.dir/build.make my_math_dir/CMakeFiles/my_math.dir/build
+	$(MAKE) $(MAKESILENT) -f my_math/CMakeFiles/my_math.dir/build.make my_math/CMakeFiles/my_math.dir/build
 .PHONY : my_math/fast
 
 #=============================================================================
@@ -152,7 +152,7 @@ my_print: cmake_check_build_system
 
 # fast build rule for target.
 my_print/fast:
-	$(MAKE) $(MAKESILENT) -f my_print_dir/CMakeFiles/my_print.dir/build.make my_print_dir/CMakeFiles/my_print.dir/build
+	$(MAKE) $(MAKESILENT) -f my_print/CMakeFiles/my_print.dir/build.make my_print/CMakeFiles/my_print.dir/build
 .PHONY : my_print/fast
 
 main.o: main.cpp.o

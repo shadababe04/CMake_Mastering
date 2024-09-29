@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/rpi/shadab/CMake_Mastering/module3/my_math_dir/include
+CXX_INCLUDES = -I/home/rpi/shadab/CMake_Mastering/module3/my_math/include
 
 CXX_FLAGS = 
 

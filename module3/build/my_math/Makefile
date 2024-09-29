@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/rpi/shadab/CMake_Mastering/module3/build/CMakeFiles /home/rpi/shadab/CMake_Mastering/module3/build/my_math_dir//CMakeFiles/progress.marks
-	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_math_dir/all
+	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/rpi/shadab/CMake_Mastering/module3/build/CMakeFiles /home/rpi/shadab/CMake_Mastering/module3/build/my_math//CMakeFiles/progress.marks
+	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_math/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rpi/shadab/CMake_Mastering/module3/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_math_dir/clean
+	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_math/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,12 +103,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_math_dir/preinstall
+	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_math/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_math_dir/preinstall
+	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_math/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
@@ -117,17 +117,17 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-my_math_dir/CMakeFiles/my_math.dir/rule:
-	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_math_dir/CMakeFiles/my_math.dir/rule
-.PHONY : my_math_dir/CMakeFiles/my_math.dir/rule
+my_math/CMakeFiles/my_math.dir/rule:
+	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_math/CMakeFiles/my_math.dir/rule
+.PHONY : my_math/CMakeFiles/my_math.dir/rule
 
 # Convenience name for target.
-my_math: my_math_dir/CMakeFiles/my_math.dir/rule
+my_math: my_math/CMakeFiles/my_math.dir/rule
 .PHONY : my_math
 
 # fast build rule for target.
 my_math/fast:
-	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f my_math_dir/CMakeFiles/my_math.dir/build.make my_math_dir/CMakeFiles/my_math.dir/build
+	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f my_math/CMakeFiles/my_math.dir/build.make my_math/CMakeFiles/my_math.dir/build
 .PHONY : my_math/fast
 
 src/addition.o: src/addition.cpp.o
@@ -135,7 +135,7 @@ src/addition.o: src/addition.cpp.o
 
 # target to build an object file
 src/addition.cpp.o:
-	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f my_math_dir/CMakeFiles/my_math.dir/build.make my_math_dir/CMakeFiles/my_math.dir/src/addition.cpp.o
+	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f my_math/CMakeFiles/my_math.dir/build.make my_math/CMakeFiles/my_math.dir/src/addition.cpp.o
 .PHONY : src/addition.cpp.o
 
 src/addition.i: src/addition.cpp.i
@@ -143,7 +143,7 @@ src/addition.i: src/addition.cpp.i
 
 # target to preprocess a source file
 src/addition.cpp.i:
-	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f my_math_dir/CMakeFiles/my_math.dir/build.make my_math_dir/CMakeFiles/my_math.dir/src/addition.cpp.i
+	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f my_math/CMakeFiles/my_math.dir/build.make my_math/CMakeFiles/my_math.dir/src/addition.cpp.i
 .PHONY : src/addition.cpp.i
 
 src/addition.s: src/addition.cpp.s
@@ -151,7 +151,7 @@ src/addition.s: src/addition.cpp.s
 
 # target to generate assembly for a file
 src/addition.cpp.s:
-	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f my_math_dir/CMakeFiles/my_math.dir/build.make my_math_dir/CMakeFiles/my_math.dir/src/addition.cpp.s
+	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f my_math/CMakeFiles/my_math.dir/build.make my_math/CMakeFiles/my_math.dir/src/addition.cpp.s
 .PHONY : src/addition.cpp.s
 
 src/division.o: src/division.cpp.o
@@ -159,7 +159,7 @@ src/division.o: src/division.cpp.o
 
 # target to build an object file
 src/division.cpp.o:
-	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f my_math_dir/CMakeFiles/my_math.dir/build.make my_math_dir/CMakeFiles/my_math.dir/src/division.cpp.o
+	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f my_math/CMakeFiles/my_math.dir/build.make my_math/CMakeFiles/my_math.dir/src/division.cpp.o
 .PHONY : src/division.cpp.o
 
 src/division.i: src/division.cpp.i
@@ -167,7 +167,7 @@ src/division.i: src/division.cpp.i
 
 # target to preprocess a source file
 src/division.cpp.i:
-	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f my_math_dir/CMakeFiles/my_math.dir/build.make my_math_dir/CMakeFiles/my_math.dir/src/division.cpp.i
+	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f my_math/CMakeFiles/my_math.dir/build.make my_math/CMakeFiles/my_math.dir/src/division.cpp.i
 .PHONY : src/division.cpp.i
 
 src/division.s: src/division.cpp.s
@@ -175,7 +175,7 @@ src/division.s: src/division.cpp.s
 
 # target to generate assembly for a file
 src/division.cpp.s:
-	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f my_math_dir/CMakeFiles/my_math.dir/build.make my_math_dir/CMakeFiles/my_math.dir/src/division.cpp.s
+	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f my_math/CMakeFiles/my_math.dir/build.make my_math/CMakeFiles/my_math.dir/src/division.cpp.s
 .PHONY : src/division.cpp.s
 
 # Help Target

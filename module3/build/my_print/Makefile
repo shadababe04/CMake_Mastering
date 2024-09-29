@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/rpi/shadab/CMake_Mastering/module3/build/CMakeFiles /home/rpi/shadab/CMake_Mastering/module3/build/my_print_dir//CMakeFiles/progress.marks
-	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_print_dir/all
+	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/rpi/shadab/CMake_Mastering/module3/build/CMakeFiles /home/rpi/shadab/CMake_Mastering/module3/build/my_print//CMakeFiles/progress.marks
+	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_print/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rpi/shadab/CMake_Mastering/module3/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_print_dir/clean
+	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_print/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,12 +103,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_print_dir/preinstall
+	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_print/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_print_dir/preinstall
+	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_print/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
@@ -117,17 +117,17 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-my_print_dir/CMakeFiles/my_print.dir/rule:
-	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_print_dir/CMakeFiles/my_print.dir/rule
-.PHONY : my_print_dir/CMakeFiles/my_print.dir/rule
+my_print/CMakeFiles/my_print.dir/rule:
+	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_print/CMakeFiles/my_print.dir/rule
+.PHONY : my_print/CMakeFiles/my_print.dir/rule
 
 # Convenience name for target.
-my_print: my_print_dir/CMakeFiles/my_print.dir/rule
+my_print: my_print/CMakeFiles/my_print.dir/rule
 .PHONY : my_print
 
 # fast build rule for target.
 my_print/fast:
-	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f my_print_dir/CMakeFiles/my_print.dir/build.make my_print_dir/CMakeFiles/my_print.dir/build
+	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f my_print/CMakeFiles/my_print.dir/build.make my_print/CMakeFiles/my_print.dir/build
 .PHONY : my_print/fast
 
 src/print_result.o: src/print_result.cpp.o
@@ -135,7 +135,7 @@ src/print_result.o: src/print_result.cpp.o
 
 # target to build an object file
 src/print_result.cpp.o:
-	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f my_print_dir/CMakeFiles/my_print.dir/build.make my_print_dir/CMakeFiles/my_print.dir/src/print_result.cpp.o
+	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f my_print/CMakeFiles/my_print.dir/build.make my_print/CMakeFiles/my_print.dir/src/print_result.cpp.o
 .PHONY : src/print_result.cpp.o
 
 src/print_result.i: src/print_result.cpp.i
@@ -143,7 +143,7 @@ src/print_result.i: src/print_result.cpp.i
 
 # target to preprocess a source file
 src/print_result.cpp.i:
-	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f my_print_dir/CMakeFiles/my_print.dir/build.make my_print_dir/CMakeFiles/my_print.dir/src/print_result.cpp.i
+	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f my_print/CMakeFiles/my_print.dir/build.make my_print/CMakeFiles/my_print.dir/src/print_result.cpp.i
 .PHONY : src/print_result.cpp.i
 
 src/print_result.s: src/print_result.cpp.s
@@ -151,7 +151,7 @@ src/print_result.s: src/print_result.cpp.s
 
 # target to generate assembly for a file
 src/print_result.cpp.s:
-	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f my_print_dir/CMakeFiles/my_print.dir/build.make my_print_dir/CMakeFiles/my_print.dir/src/print_result.cpp.s
+	cd /home/rpi/shadab/CMake_Mastering/module3/build && $(MAKE) $(MAKESILENT) -f my_print/CMakeFiles/my_print.dir/build.make my_print/CMakeFiles/my_print.dir/src/print_result.cpp.s
 .PHONY : src/print_result.cpp.s
 
 # Help Target

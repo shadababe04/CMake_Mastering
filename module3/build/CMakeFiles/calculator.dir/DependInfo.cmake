@@ -13,8 +13,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/rpi/shadab/CMake_Mastering/module3/build/my_math_dir/CMakeFiles/my_math.dir/DependInfo.cmake"
-  "/home/rpi/shadab/CMake_Mastering/module3/build/my_print_dir/CMakeFiles/my_print.dir/DependInfo.cmake"
+  "/home/rpi/shadab/CMake_Mastering/module3/build/my_math/CMakeFiles/my_math.dir/DependInfo.cmake"
+  "/home/rpi/shadab/CMake_Mastering/module3/build/my_print/CMakeFiles/my_print.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

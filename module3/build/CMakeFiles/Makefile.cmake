@@ -11,8 +11,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.25.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.25.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.25.1/CMakeSystem.cmake"
-  "/home/rpi/shadab/CMake_Mastering/module3/my_math_dir/CMakeLists.txt"
-  "/home/rpi/shadab/CMake_Mastering/module3/my_print_dir/CMakeLists.txt"
+  "/home/rpi/shadab/CMake_Mastering/module3/my_math/CMakeLists.txt"
+  "/home/rpi/shadab/CMake_Mastering/module3/my_print/CMakeLists.txt"
   "/usr/share/cmake-3.25/Modules/CMakeCCompiler.cmake.in"
   "/usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c"
   "/usr/share/cmake-3.25/Modules/CMakeCInformation.cmake"
@@ -121,13 +121,13 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/3.25.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.25.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "my_math_dir/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "my_print_dir/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "my_math/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "my_print/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/calculator.dir/DependInfo.cmake"
-  "my_math_dir/CMakeFiles/my_math.dir/DependInfo.cmake"
-  "my_print_dir/CMakeFiles/my_print.dir/DependInfo.cmake"
+  "my_math/CMakeFiles/my_math.dir/DependInfo.cmake"
+  "my_print/CMakeFiles/my_print.dir/DependInfo.cmake"
   )

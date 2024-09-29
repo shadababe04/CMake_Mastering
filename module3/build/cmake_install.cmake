@@ -44,12 +44,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/rpi/shadab/CMake_Mastering/module3/build/my_math_dir/cmake_install.cmake")
+  include("/home/rpi/shadab/CMake_Mastering/module3/build/my_math/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/rpi/shadab/CMake_Mastering/module3/build/my_print_dir/cmake_install.cmake")
+  include("/home/rpi/shadab/CMake_Mastering/module3/build/my_print/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
